@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.cdnfonts.com/css/doom-2016-left');
+@import url('https://fonts.cdnfonts.com/css/doom-2016-text');
+@import url('https://fonts.cdnfonts.com/css/doom-2016-right');
+
+body,html {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+h1,h2,h3,h4,h5{
+    font-family: 'Doom 2016 Left', sans-serif;
+}
+
+
+// PAGE STYLES
+#page {
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    // border: 5px solid green;
+}
