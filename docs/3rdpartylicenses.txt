@@ -10,6 +10,9 @@ MIT
 @angular/router
 MIT
 
+gsap
+This package should only be used by individuals/companies with an active Club GreenSock membership. See https://greensock.com/club/. Licensing: https://greensock.com/licensing/
+
 rxjs
 Apache-2.0
                                Apache License
