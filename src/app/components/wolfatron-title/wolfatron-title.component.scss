@@ -1,24 +1,32 @@
-h1 {
-    font-size: 15rem !important;
-    line-height: 18rem;
-    letter-spacing: 4px;
-    #wolf_txt {
-        font-family: 'Doom 2016 Left', sans-serif;
-
-    }
-    #a_txt {
-        font-family: 'Doom 2016 Text', sans-serif;
-    }
-    #tron_txt {
-        font-family: 'Doom 2016 Right', sans-serif;
-    }
-
-}
-
 :host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
     background: none;
-    background-color: #000 !important;
-    background-image: url("/assets/Wolfatron.png");
-    background-position: center center;
-    background-repeat: no-repeat;
+
+    #Title {
+        font-size: 12rem !important;
+        line-height: 14rem;
+        letter-spacing: .6rem;
+        opacity: .8;
+        
+        #wolf_txt {
+            font-family: 'Doom 2016 Left', sans-serif;
+            display: inline-block;
+        }
+        #a_txt {
+            display: inline-block;
+            font-family: 'Doom 2016 Text', sans-serif;
+        }
+        #tron_txt {
+            display: inline-block;
+            font-family: 'Doom 2016 Right', sans-serif;
+        }
+    
+    }
 }
