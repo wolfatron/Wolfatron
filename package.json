@@ -17,13 +17,16 @@
     "@angular/platform-browser": "~17.2.0",
     "@angular/platform-browser-dynamic": "~17.2.0",
     "@angular/router": "~17.2.0",
+    "@nrwl/nx-cloud": "^18.0.0",
     "@nx/angular": "18.1.2",
+    "angular-cli-ghpages": "^2.0.0-beta.2",
+    "gsap": "file:gsap-bonus.tgz",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~17.2.0",
+    "@angular-devkit/build-angular": "^17.3.2",
     "@angular-devkit/core": "~17.2.0",
     "@angular-devkit/schematics": "~17.2.0",
     "@angular-eslint/eslint-plugin": "~17.0.0",
