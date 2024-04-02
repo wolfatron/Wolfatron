@@ -1,15 +1,17 @@
 h1 {
     font-size: 15rem !important;
     line-height: 18rem;
-    letter-spacing: 4px;
+    letter-spacing: 1rem;
     #wolf_txt {
         font-family: 'Doom 2016 Left', sans-serif;
-
+        display: inline-block;
     }
     #a_txt {
+        display: inline-block;
         font-family: 'Doom 2016 Text', sans-serif;
     }
     #tron_txt {
+        display: inline-block;
         font-family: 'Doom 2016 Right', sans-serif;
     }
 
@@ -21,4 +23,5 @@ h1 {
     background-image: url("/assets/Wolfatron.png");
     background-position: center center;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
